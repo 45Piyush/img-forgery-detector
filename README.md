@@ -1,16 +1,20 @@
 # Image Forgery Detection Streamlit App
 
-This is a Streamlit-based Python application for detecting image forgery, deployed using Microsoft Azure and Docker.
-LIVE URL : https://tsp-image-forgery.azurewebsites.net [https://tsp-image-forgery.azurewebsites.net]
+This is a Streamlit-based Python Web Application for detecting whether an image forgery detection, Deployed using Microsoft Azure and Docker.
+LIVE URL : https://tsp-image-forgery.azurewebsites.net 
+           [ https://tsp-image-forgery.azurewebsites.net ]
 
 ## Overview
 
-This application provides a user-friendly interface for detecting image forgery using various techniques such as image manipulation detection, tampering detection, and deep learning-based approaches. Users can upload an image and the app will analyze it to detect any signs of forgery or manipulation.
+This application provides a user-friendly interface for detecting image forgery using the model which has been created various techniques such as Image Preprocessing, 
+Image Manipulation Detection,  Tampering Detection, and Deep Learning-based CNN approaches. Users can upload an image and the app will analyze it to detect any signs of 
+forgery or manipulation and it also gives us the confidence with which model may be accurate.
 
 ## Features
 
 - **Upload Image**: Users can upload an image directly through the app interface.
 - **Forgery Detection**: The app utilizes advanced algorithms to analyze the uploaded image and detect any signs of forgery or manipulation.
+- - **Confidence Interval**: Also this app gives us the confidence interval of it's prediction out of 100.
 - **Real-Time Analysis**: The forgery detection process is carried out in real-time, providing instant results to the users.
 - **User-Friendly Interface**: The app interface is designed to be intuitive and easy to use, allowing users to analyze images without any technical expertise.
 
@@ -38,6 +42,7 @@ To use the Image Forgery Detection app:
 ### Technologies Used
 
 - Python
+- Python Libraries
 - Streamlit
 - Azure
 - Docker
@@ -53,10 +58,10 @@ To run the application locally, follow these steps:
 
 ## Contributors
 
+- PIYUSH SINGH [https://github.com/45Piyush]
 - ABHISHEK KHOND [https://github.com/AbhishekKhond005]
 - SAIF KHAN [https://github.com/Saifkhan-rkp]
 - DEVASHISH JAYBHAYE [https://github.com/Devashish1910]
-- PIYUSH SINGH [https://github.com/45Piyush]
 
 ## License
 
